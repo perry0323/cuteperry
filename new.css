@@ -1,0 +1,578 @@
+header{
+    background-color: #ebebe3;
+    height:80px;
+    width:100%;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  body{
+    background-image:url(images/b\ copy.jpg);
+  background-size: cover; /* 可根据需要调整 */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+
+  *{
+    max-width:1024px;
+    margin: 0px auto;
+    font-weight:bold ;
+   
+  }
+  
+  
+  h1{
+    color:#;
+    position: absolute;
+    top:0;
+    line-height: 80px;
+   
+  }
+  header a{
+    color: #909fa6;
+    text-decoration: none;
+  }
+  
+  header a:hover{
+    text-decoration: underline;
+  }
+  
+  header li{
+    display :inline;
+    margin-right: 3vw;
+    
+  
+  }
+  
+
+  header img{
+    position: absolute;
+    right: 0px;
+    
+  }
+  header ul{
+    position: absolute;
+    right: 5vw;
+    top:0px;
+    line-height: 80px;
+  }
+  .one{
+    position: relative;
+    margin-top: 50px;
+    background-color: #c9ba9b;
+    color: white;
+    height: 60vh;
+    width: 130vh;
+    border-radius: 50px 50px 50px 50px;
+    transition: box-shadow 1s, background-color 1s,filter 1s;
+  }
+  .one:hover{
+    box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.5);
+    filter: brightness(-3.5);
+}
+.one:active{
+    opacity: 0.8;
+    background-color: #f0e4d4;
+}
+
+  
+  .img_deg{
+    float: left;
+    width: 50%;
+    
+    margin-top: 70px;
+    margin-left: 40px;
+    
+  }
+.pos_text{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top:10%
+    
+}
+.img_cc{
+  position: absolute;
+  right: 10%
+  
+}
+
+.img_dd{
+  position: absolute;
+  right: 5%
+  
+}
+.pos_text h1{
+  color: ;
+  position: absolute;
+  margin-left: 20%;
+  font-size: 250%;
+}
+
+
+
+.pos_text h2{
+  position: relative;
+  align-items: center;
+  color:
+}
+    .pos_text h2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+        color:;
+        font-size: 30px;
+        line-height:1.7em;
+      
+    }
+
+    .pos_text img{
+      transform:scale(1,1);transition: all 1s ease-out;
+      position: relative;
+
+    }
+    .pos_text img:hover{transform:scale(1.2,1.2);}
+    .ig img:hover{
+      .pos_text img:hover{transform:scale(1.2,1.2);}
+
+    }
+    
+    .two{
+        
+        color: #bdc2bb;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+
+
+    .three{
+      
+        background-color: #ebe7d2;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 100px 100px;
+        border-radius: 50px 50px 50px 50px;
+    transition: box-shadow 1s, background-color 1s,filter 1s;
+
+    }
+
+    .three div{
+        width:300px;
+        text-align: center;
+    }
+
+    .product img{
+        width:100%
+        border-radius:10px;
+    }
+
+    .activity{
+      
+      color: #c9ccd3;
+      height: 32vh;
+      background-image: url("images/RTM.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+        text-align: center;
+        position: relative;
+        top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50;
+        padding: 70px;
+        
+
+    }
+    .activity h2{
+      font-size: 40px;
+
+    }
+    
+    ul{
+      border:#2f5dbc 2px;
+      width:500px;
+    }
+
+   .skill li{
+    margin:30px;
+    width:80px;
+    border-right-style: solid;
+    border-right-color:#f0e4d4 ;
+   } 
+
+    /* li{
+      margin:30px;
+      width:80px;
+      border-right-style: solid;
+      border-right-color:#31525b ;
+    } */
+
+    .pro_java{
+      animation: bar1 2s ease-out;
+      border-right-width:300px ;
+  }
+  @keyframes bar1{
+      from{
+          border-right-width:10px ;
+  
+      }
+      to{
+          border-right-right:00px ;
+      }
+  }
+  .pro_python{
+    animation: bar2 2s ease-out;
+    border-right-width:200px ;
+}
+@keyframes bar2{
+    from{
+        border-right-width:10px ;
+
+    }
+    to{
+        border-right-right:00px ;
+    }
+}
+
+.pro_html{
+  animation: bar3 2s ease-out;
+  border-right-width:400px ;
+}
+@keyframes bar3{
+  from{
+      border-right-width:10px ;
+
+  }
+  to{
+      border-right-right:00px ;
+  }
+}
+
+.four{
+  background-color: #efeaf1;
+  
+  display: flex;
+}
+
+.four:hover{
+
+  background: #e1d0b2;  /* 當滑鼠經過時，背景顏色改變 */
+  
+  }
+.four p{
+  align-items: right;
+}
+
+
+
+.info{
+  display: flex;
+  width: 50%;
+  color:#63673e ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.anfo{
+  display: flex;
+  width: 50%;
+  color: white;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.four img{
+  width:50%
+  
+}
+.red{
+  background-color: #c9babb;
+  text-align: left;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.red:hover{
+
+  background: #a69579;}
+.five{
+  text-align: center;
+  color: #63673e;
+  font-size: 40px;
+}
+
+
+
+  .happy:hover {
+    border-style: inset;
+  border-width: thick;
+  border-color: #a69579;
+  }
+
+footer{
+  background-color: #897950;
+  height: 50px;
+  text-align: center;
+  position: relative;
+  line-height: 50px;;
+  font-size: 25px;
+}
+
+
+
+
+.job{
+  background-color: #bdc2bb;
+  margin: 70px 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 30px;
+}
+  
+
+    .job:hover{
+      box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.5);
+      filter: brightness(-3.5);
+  
+}
+.job h3{
+  text-align: center;
+}
+
+.slider-container {
+  width: 80%; /* 调整轮播器宽度 */
+  margin: ; /* 居中显示 */
+  overflow: hidden; /* 隐藏超出容器的部分 */
+  position: relative; /* 相对定位，用于绝对定位图片 */
+}
+
+.slides {
+  display: flex; /* 使用 Flexbox 排列图片 */
+  animation: slide 20s infinite alternate; /* 设置轮播动画 */
+}
+
+.slide {
+  min-width: 40%; /* 图片宽度等于容器宽度 */
+ 
+}
+.slides.R{
+  min-width: 200%; /* 图片宽度等于容器宽度 */
+  width: 50%;
+  animation: slide 25s infinite alternate;
+ display: flex;
+}
+
+
+.slide img {
+  width: 100%; /* 图片宽度等于容器宽度 */
+  height: auto; /* 自适应高度 */
+  padding: 30px 0px 40px 20px;
+  
+}
+
+/* 添加轮播动画 */
+@keyframes slide {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-200%); }
+}
+
+
+
+
+        .happy{
+          background-color: #bdc2bb;
+          width: 800px;
+          height: 200px;
+          margin: 50px auto ;
+          border-radius: 30px;
+          overflow: hidden; /* 避免長方框下面顯示不正常 */
+        }
+
+        .happy.f{
+          background-color:#c9babb;
+        }
+        .bdcard{
+         
+          width: 300px;
+          float:left; /* 圖片在左邊 */
+          padding: 20px;
+        }
+        .bdcard.c{
+          width: 300px;
+          float:right; /* 圖片在左邊 */
+          padding: 20px;
+
+        }
+        .happy:hover{
+          background-color: #c9ba9b;
+          border-color: black;
+        }
+
+        
+        .bdcard img {
+          display: block;
+          width: 270px;
+          border-radius: 20px;
+          opacity: 1;
+  transition: opacity 0.5s ease;
+  position: absolute;
+      }
+      
+      .bdcard img:hover {
+        opacity: 0;
+      }
+      
+      
+        .bdtext{
+          float: right;  /* 文字在右邊 */
+          width: 430px;
+          padding: 20px 20px 0px 0px;
+        }
+
+        .six h3{
+          text-align: center;
+          font-size: 33px;
+        }
+
+        .job h3{
+          font-size: 30px;
+          color: #63673e;
+          
+        }
+
+
+        .wrap{
+          width: 1200px;
+          margin: auto;
+        }
+        /* clearfix */
+        .timeline::after{
+          content: '';
+          display: block;
+          width: 100%;
+          height: 0px;
+          clear: both;
+        }
+        .timeline{
+          padding: 100px 0;
+        }
+        .timeline li{
+          padding: 20px 0;
+          width: 50%;
+          box-sizing: border-box;
+          position: relative;
+        }
+        .timeline li:nth-child(odd){
+          float: left;
+          padding-right: 100px;
+        }
+        .timeline li:nth-child(even){
+          float: right;
+          padding-left: 100px;
+          transform: translateY(50%);
+        }
+        .timeline li:nth-child(odd)::after{
+          content: '';
+          position: absolute; 
+          top: 0;
+          right: 0;
+          width: 1px;
+          height: 100%;
+          background: #ccc;
+          z-index: -1;
+        }
+        .timeline li:nth-child(odd)::before{
+          right: -10px;
+        }
+        .timeline li:nth-child(even)::before{
+          left: -10px;
+        }
+        /* .timeline li:last-child::after{
+          height: 50%;
+        } */
+        
+        .timeline li::before{
+          content: '';
+          position: absolute;
+          width: 20px;
+          height: 20px;border-radius: 50%;
+          background: #aaa;
+          z-index: 2;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+        }
+        .timeline a{
+          padding: 20px;
+          display: block;
+          text-decoration: none;
+          background-color: #fff;
+          border: 1px solid #aaa;
+          box-sizing: border-box;
+          border-radius: 10px;
+          box-shadow: 5px 3px 5px #777;
+        }
+        .timeline a:hover{
+          background-color: #6fa5f6;
+        }
+        .timeline a:hover h2,.timeline a:hover p{
+          color: #fff;
+        }
+        .timeline h2{
+          color: #333;
+          margin-bottom: 10px;
+        }
+        .timeline h2::after{
+          content: '';
+          position: absolute;
+          height: 1px;
+          width: 100px;
+          background-color: #999;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+        }
+        .timeline li:nth-child(odd) h2::after{
+          right: 0;
+        }
+        .timeline li:nth-child(even) h2::after{
+          left: 0;
+        }
+        .timeline p{
+          color: #666;
+        }
+        .check{
+          padding: 20px;
+          background: #fff;
+          border: 1px solid #aaa;
+          box-sizing: border-box;
+          border-radius: 10px;
+        }
+
+        
+
+
+
+
+       
+
+    
+
+
+
+
+    
+  
